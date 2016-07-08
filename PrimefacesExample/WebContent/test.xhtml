@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+<h:head></h:head>
+<h:outputStylesheet name="css/custom-style.css" />
+	<h2>Tutorials</h2>
+	<h2><p:outputLabel value="JSF2/Primefaces Tutorial"></p:outputLabel></h2>
+Firstname:<p:inputText />
+Lastname:<p:inputText />
+<p:button value="Bookmark" icon="ui-icon-star">
+    <f:param name="productId" value="10" />
+</p:button>
+
+ <h:form>
+        <p:button value="Normal"></p:button>
+        <p:panel>
+            <p:button value="A bit smaller"></p:button>
+            <p:panel>
+                <p:button value="Even smaller again"></p:button>
+                <p:panel>
+                    <p:button value="Tiny"></p:button>
+                </p:panel>
+            </p:panel>
+        </p:panel>
+    </h:form>
+
+</html>
