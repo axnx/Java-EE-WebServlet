@@ -1,0 +1,4 @@
+http://www.studytonight.com/servlet/login-system-example-in-servlet.php
+
+
+curl -X POST "http://localhost:8080/HttpAuth/Login?user=user&pass=pass"
